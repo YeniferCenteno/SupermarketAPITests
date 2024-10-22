@@ -19,7 +19,7 @@ namespace SupermarketAPI.IntegrationTests
         /// </summary>
         /// 
 
-        [ClassInitialize]
+        [ClassInitialize] 
         public static async Task ClassInit(TestContext context)
         {
             //Crear instancia de la aplicación en memoria
@@ -39,10 +39,25 @@ namespace SupermarketAPI.IntegrationTests
             _token = (await loginResponse.Content.ReadAsStringAsync()).Trim('"');
         }
 
+        /// <summary>
+        /// Agregar token de autorizacion a la cabecera del cliente HTTP
+        /// </summary>
         [TestInitialize]
         public void AgregarTokenALaCabecera()
         {
             _httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", _token);
         }
+
+        [TestMethod]
+        public async Task ObtenerUsuarios_ConTokenValido_RetornaListaDeUsuarios() {
+            //Arrange: pasar autorizacion a la cabecera 
+            AgregarTokenALaCabecera();
+            //Act: Realizar solicitud para obtener los usuarios 
+            var users = await _httpClient.GetFromJsonAsync<List<UserResponse>>("api/users/");
+            //Assert: Verificar que la lista de usuario no sea nula y que tenga elementos
+            Assert.IsNotNull(users, "La lista de usuarios no deberia ser nula.");
+            Assert.IsTrue(users.Count > 0, "La lista de usuarios deberia contener al menos un elemneto.");
+        }
+
     }
 }
