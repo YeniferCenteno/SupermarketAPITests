@@ -28,7 +28,7 @@ namespace SupermarketAPI.IntegrationTests
             _httpClient = _factory.CreateClient();
             
             //Arrange: Preparar la carga util para el inicio de sesión
-            var loginRequest = new UserRequest { Username = "fer", UserPassword = "1234" };
+            var loginRequest = new UserRequest { Username = "nycol", UserPassword = "1234" };
 
             //Act: Enviar la solicitud de inicio de sesión
             var loginResponse = await _httpClient.PostAsJsonAsync("api/users/login", loginRequest);
@@ -59,5 +59,16 @@ namespace SupermarketAPI.IntegrationTests
             Assert.IsTrue(users.Count > 0, "La lista de usuarios deberia contener al menos un elemneto.");
         }
 
+        [TestMethod]
+        public async Task ObtenerUsuarioPorId_UsuarioExistente_RetornaUsuario() {
+            //Arrange: pasar autorizacion a la cabecera y estables ID de usuario exixtente
+            AgregarTokenALaCabecera();
+            var userId = 2;
+            //Act: Realizar solicitud para obtener  usuarios por ID
+            var user = await _httpClient.GetFromJsonAsync<UserResponse>($"api/users/{userId}");
+            //Assert: Verificar que el usuario no sea nulo y que tenga el ID correcto 
+            Assert.IsNotNull(user, "El usuario no deberia ser nulo.");
+            Assert.AreEqual(userId, user.UserId, "El ID del usuario devuelto no coincide.");
+        }
     }
 }
