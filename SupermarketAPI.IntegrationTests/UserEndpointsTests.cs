@@ -95,7 +95,18 @@ namespace SupermarketAPI.IntegrationTests
             var response = await _httpClient.PostAsJsonAsync("api/users", newUser);
             //Assert: Verificar el codigo de estado Conflict
             Assert.AreEqual(HttpStatusCode.Conflict, response.StatusCode, "Se esperaba un conflicto al intentar crear usuario duplicado.");
+        }
 
+        [TestMethod]
+        public async Task ModificarUsuario_UsuarioExistente_RetornaOk() {
+            //Arrange: pasar autorizacion a la cabecera y preparar el nuevo usuario modificado, pasando un ID
+            AgregarTokenALaCabecera();
+            var existingUser = new UserRequest { Username = "jeny", UserPassword = "0000", UserRole = "Administrador"};
+            var userId = 2;
+            //Act: Realizar solicitud para modificar usuario existente 
+            var response = await _httpClient.PutAsJsonAsync($"api/users/{userId}", existingUser);
+            //Assert: Verifica que la respuesta se OK
+            Assert.AreEqual(HttpStatusCode.OK, response.StatusCode, "El usuario no se modifico correctamente");
         }
     }
 }
