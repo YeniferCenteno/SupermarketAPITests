@@ -78,11 +78,24 @@ namespace SupermarketAPI.IntegrationTests
         public async Task GuardarUsuario_ConDatosValidos_RetornaCreated() {
             //Arrange: pasar autorizacion a la cabecera y preparar el nuevo usuario
             AgregarTokenALaCabecera();
-            var newUser = new UserRequest { Username = "michel", UserPassword = "123", UserRole = "Verdedor" };
+            var newUser = new UserRequest { Username = "yenifer", UserPassword = "123", UserRole = "Verdedor" };
             //Act: Realizar solicitud para guardar el usuario 
             var response = await _httpClient.PostAsJsonAsync("api/users", newUser);
             //Assert: Verificar el codigo de estado Created
             Assert.AreEqual(HttpStatusCode.Created, response.StatusCode, "El usuario no se creo correctamente");
+        }
+
+        [TestMethod]
+        public async Task GuardarUsuario_UsernameDuplicado_RetornaConflict()
+        {
+            //Arrange: pasar autorizacion a la cabecera y preparar el nuevo usuario duplicado
+            AgregarTokenALaCabecera();
+            var newUser = new UserRequest { Username = "michel", UserPassword = "123", UserRole = "Verdedor" };
+            //Act: Realizar solicitud para guardar el usuario con nombre de usuario duplicado
+            var response = await _httpClient.PostAsJsonAsync("api/users", newUser);
+            //Assert: Verificar el codigo de estado Conflict
+            Assert.AreEqual(HttpStatusCode.Conflict, response.StatusCode, "Se esperaba un conflicto al intentar crear usuario duplicado.");
+
         }
     }
 }

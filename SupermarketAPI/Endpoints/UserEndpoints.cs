@@ -21,6 +21,7 @@ namespace SupermarketAPI.Endpoints
                 var users = await userServices.GetUsers();
                 //200 OK: la solicitud se realizo correctamente y devuelve la lista de usuarios
                 return Results.Ok(users);
+
             }).WithOpenApi(o => new OpenApiOperation(o)
             {
                 Summary = "Obtener Usuarios",
@@ -45,10 +46,19 @@ namespace SupermarketAPI.Endpoints
                 if (user == null)
                     Results.BadRequest();// 400 Bad Request: La solicitud no se pudo procesar, error de formato
 
-                var id = await userServices.PostUser(user);
+                try
+                {
+                    var id = await userServices.PostUser(user);
 
-                //201 Created: El recurso se creo con exito, se devuelve la ubicacion del recurso creado
-                return Results.Created($"api/products/{id}", user);
+                    //201 Created: El recurso se creo con exito, se devuelve la ubicacion del recurso creado
+                    return Results.Created($"api/users/{id}", user);
+                }
+                catch (Exception)
+                {
+                    //409 Conflict
+                    return Results.Conflict("El nombre de usuario ya esta en uso.");
+                }
+
             }).WithOpenApi(o => new OpenApiOperation(o)
             {
                 Summary = "Crear Usuario",
