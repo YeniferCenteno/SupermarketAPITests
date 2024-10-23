@@ -108,5 +108,30 @@ namespace SupermarketAPI.IntegrationTests
             //Assert: Verifica que la respuesta se OK
             Assert.AreEqual(HttpStatusCode.OK, response.StatusCode, "El usuario no se modifico correctamente");
         }
+
+        [TestMethod]
+        public async Task EliminarUsuario_UsuarioExistente_RetornaNoContent() {
+            //Arrange: pasar autorizacion a la cabecera, pasando un ID
+            AgregarTokenALaCabecera();
+            var userId = 2;
+            //Act: Realizar solicitud para eliminar usuario existente 
+            var response = await _httpClient.DeleteAsync($"api/users/{userId}");
+            //Assert: Verifica que la respuesta se NoContent
+            Assert.AreEqual(HttpStatusCode.NoContent, response.StatusCode, "El usuario no se elimino correctamente");
+        }
+
+        [TestMethod]
+        public async Task EliminarUsuario_UsuarioNoExistente_RetornaNotFound()
+        {
+            //Arrange: pasar autorizacion a la cabecera, pasando un ID
+            AgregarTokenALaCabecera();
+            var userId = 2;
+            //Act: Realizar solicitud para eliminar usuario existente 
+            var response = await _httpClient.DeleteAsync($"api/users/{userId}");
+            //Assert: Verifica que la respuesta se NotFound
+            Assert.AreEqual(HttpStatusCode.NotFound, response.StatusCode, 
+                "Se esperaba un 404 NotFound al intentar eliminar un usuario inexistente.");
+
+        }
     }
 }
