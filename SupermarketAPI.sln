@@ -5,7 +5,7 @@ VisualStudioVersion = 17.11.35222.181
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SupermarketAPI", "SupermarketAPI\SupermarketAPI.csproj", "{C06738D7-8507-41AB-9640-78FF83F7DC92}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SupermarketAPI.IntegrationTests", "SupermarketAPI.IntegrationTests\SupermarketAPI.IntegrationTests.csproj", "{492061E5-10FC-46C0-A3D1-BE7A6775C6B4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SupermarketAPI.IntegrationTests", "SupermarketAPI.IntegrationTests\SupermarketAPI.IntegrationTests.csproj", "{492061E5-10FC-46C0-A3D1-BE7A6775C6B4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

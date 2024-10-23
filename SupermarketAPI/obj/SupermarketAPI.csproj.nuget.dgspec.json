@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\yenif\\Downloads\\SupermarketAPI\\SupermarketAPI\\SupermarketAPI\\SupermarketAPI.csproj": {}
+    "C:\\Users\\7280\\Downloads\\prueba de api\\SupermarketAPITests\\SupermarketAPI\\SupermarketAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\yenif\\Downloads\\SupermarketAPI\\SupermarketAPI\\SupermarketAPI\\SupermarketAPI.csproj": {
+    "C:\\Users\\7280\\Downloads\\prueba de api\\SupermarketAPITests\\SupermarketAPI\\SupermarketAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\yenif\\Downloads\\SupermarketAPI\\SupermarketAPI\\SupermarketAPI\\SupermarketAPI.csproj",
+        "projectUniqueName": "C:\\Users\\7280\\Downloads\\prueba de api\\SupermarketAPITests\\SupermarketAPI\\SupermarketAPI.csproj",
         "projectName": "SupermarketAPI",
-        "projectPath": "C:\\Users\\yenif\\Downloads\\SupermarketAPI\\SupermarketAPI\\SupermarketAPI\\SupermarketAPI.csproj",
-        "packagesPath": "C:\\Users\\yenif\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\yenif\\Downloads\\SupermarketAPI\\SupermarketAPI\\SupermarketAPI\\obj\\",
+        "projectPath": "C:\\Users\\7280\\Downloads\\prueba de api\\SupermarketAPITests\\SupermarketAPI\\SupermarketAPI.csproj",
+        "packagesPath": "C:\\Users\\7280\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\7280\\Downloads\\prueba de api\\SupermarketAPITests\\SupermarketAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\yenif\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\7280\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -39,11 +39,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -100,7 +95,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
