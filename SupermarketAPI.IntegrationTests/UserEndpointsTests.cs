@@ -78,11 +78,35 @@ namespace SupermarketAPI.IntegrationTests
         public async Task GuardarUsuario_ConDatosValidos_RetornaCreated() {
             //Arrange: pasar autorizacion a la cabecera y preparar el nuevo usuario
             AgregarTokenALaCabecera();
-            var newUser = new UserRequest { Username = "michel", UserPassword = "123", UserRole = "Verdedor" };
+            var newUser = new UserRequest { Username = "yenifer", UserPassword = "123", UserRole = "Verdedor" };
             //Act: Realizar solicitud para guardar el usuario 
             var response = await _httpClient.PostAsJsonAsync("api/users", newUser);
             //Assert: Verificar el codigo de estado Created
             Assert.AreEqual(HttpStatusCode.Created, response.StatusCode, "El usuario no se creo correctamente");
+        }
+
+        [TestMethod]
+        public async Task GuardarUsuario_UsernameDuplicado_RetornaConflict()
+        {
+            //Arrange: pasar autorizacion a la cabecera y preparar el nuevo usuario duplicado
+            AgregarTokenALaCabecera();
+            var newUser = new UserRequest { Username = "michel", UserPassword = "123", UserRole = "Verdedor" };
+            //Act: Realizar solicitud para guardar el usuario con nombre de usuario duplicado
+            var response = await _httpClient.PostAsJsonAsync("api/users", newUser);
+            //Assert: Verificar el codigo de estado Conflict
+            Assert.AreEqual(HttpStatusCode.Conflict, response.StatusCode, "Se esperaba un conflicto al intentar crear usuario duplicado.");
+        }
+
+        [TestMethod]
+        public async Task ModificarUsuario_UsuarioExistente_RetornaOk() {
+            //Arrange: pasar autorizacion a la cabecera y preparar el nuevo usuario modificado, pasando un ID
+            AgregarTokenALaCabecera();
+            var existingUser = new UserRequest { Username = "jeny", UserPassword = "0000", UserRole = "Administrador"};
+            var userId = 2;
+            //Act: Realizar solicitud para modificar usuario existente 
+            var response = await _httpClient.PutAsJsonAsync($"api/users/{userId}", existingUser);
+            //Assert: Verifica que la respuesta se OK
+            Assert.AreEqual(HttpStatusCode.OK, response.StatusCode, "El usuario no se modifico correctamente");
         }
     }
 }
