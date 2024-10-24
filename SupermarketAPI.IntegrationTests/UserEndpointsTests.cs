@@ -29,7 +29,7 @@ namespace SupermarketAPI.IntegrationTests
             _httpClient = _factory.CreateClient();
 
             //Arrange: Preparar la carga util para el inicio de sesión
-            var loginRequest = new UserRequest { Username = "nycol", UserPassword = "1234" };
+            var loginRequest = new UserRequest { Username = "fer", UserPassword = "1234" };
 
             //Act: Enviar la solicitud de inicio de sesión
             var loginResponse = await _httpClient.PostAsJsonAsync("api/users/login", loginRequest);

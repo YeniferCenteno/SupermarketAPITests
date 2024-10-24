@@ -1,70 +1,74 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\yenif\\Downloads\\SupermarketAPI\\SupermarketAPI\\",
+  "WorkspaceRootPath": "C:\\Users\\yenif\\Downloads\\SupermarketAPITests\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{492061E5-10FC-46C0-A3D1-BE7A6775C6B4}|SupermarketAPI.IntegrationTests\\SupermarketAPI.IntegrationTests.csproj|c:\\users\\yenif\\downloads\\supermarketapi\\supermarketapi\\supermarketapi.integrationtests\\userendpointstests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{492061E5-10FC-46C0-A3D1-BE7A6775C6B4}|SupermarketAPI.IntegrationTests\\SupermarketAPI.IntegrationTests.csproj|c:\\users\\yenif\\downloads\\supermarketapitests\\supermarketapi.integrationtests\\productendpointstests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{492061E5-10FC-46C0-A3D1-BE7A6775C6B4}|SupermarketAPI.IntegrationTests\\SupermarketAPI.IntegrationTests.csproj|solutionrelative:supermarketapi.integrationtests\\productendpointstests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{492061E5-10FC-46C0-A3D1-BE7A6775C6B4}|SupermarketAPI.IntegrationTests\\SupermarketAPI.IntegrationTests.csproj|c:\\users\\yenif\\downloads\\supermarketapitests\\supermarketapi.integrationtests\\userendpointstests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{492061E5-10FC-46C0-A3D1-BE7A6775C6B4}|SupermarketAPI.IntegrationTests\\SupermarketAPI.IntegrationTests.csproj|solutionrelative:supermarketapi.integrationtests\\userendpointstests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{492061E5-10FC-46C0-A3D1-BE7A6775C6B4}|SupermarketAPI.IntegrationTests\\SupermarketAPI.IntegrationTests.csproj|c:\\users\\yenif\\downloads\\supermarketapi\\supermarketapi\\supermarketapi.integrationtests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{492061E5-10FC-46C0-A3D1-BE7A6775C6B4}|SupermarketAPI.IntegrationTests\\SupermarketAPI.IntegrationTests.csproj|c:\\users\\yenif\\downloads\\supermarketapitests\\supermarketapi.integrationtests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{492061E5-10FC-46C0-A3D1-BE7A6775C6B4}|SupermarketAPI.IntegrationTests\\SupermarketAPI.IntegrationTests.csproj|solutionrelative:supermarketapi.integrationtests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C06738D7-8507-41AB-9640-78FF83F7DC92}|SupermarketAPI\\SupermarketAPI.csproj|c:\\users\\yenif\\downloads\\supermarketapi\\supermarketapi\\supermarketapi\\endpoints\\userendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C06738D7-8507-41AB-9640-78FF83F7DC92}|SupermarketAPI\\SupermarketAPI.csproj|solutionrelative:supermarketapi\\endpoints\\userendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C06738D7-8507-41AB-9640-78FF83F7DC92}|SupermarketAPI\\SupermarketAPI.csproj|c:\\users\\yenif\\downloads\\supermarketapi\\supermarketapi\\supermarketapi\\services\\users\\userservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C06738D7-8507-41AB-9640-78FF83F7DC92}|SupermarketAPI\\SupermarketAPI.csproj|solutionrelative:supermarketapi\\services\\users\\userservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C06738D7-8507-41AB-9640-78FF83F7DC92}|SupermarketAPI\\SupermarketAPI.csproj|c:\\users\\yenif\\downloads\\supermarketapi\\supermarketapi\\supermarketapi\\migrations\\supermarketdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C06738D7-8507-41AB-9640-78FF83F7DC92}|SupermarketAPI\\SupermarketAPI.csproj|solutionrelative:supermarketapi\\migrations\\supermarketdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\yenif\\Downloads\\SupermarketAPI\\SupermarketAPI\\SupermarketAPI\\Migrations\\20241021032712_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SupermarketAPI\\Migrations\\20241021032712_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C06738D7-8507-41AB-9640-78FF83F7DC92}|SupermarketAPI\\SupermarketAPI.csproj|c:\\users\\yenif\\downloads\\supermarketapi\\supermarketapi\\supermarketapi\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C06738D7-8507-41AB-9640-78FF83F7DC92}|SupermarketAPI\\SupermarketAPI.csproj|solutionrelative:supermarketapi\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C06738D7-8507-41AB-9640-78FF83F7DC92}|SupermarketAPI\\SupermarketAPI.csproj|c:\\users\\yenif\\downloads\\supermarketapi\\supermarketapi\\supermarketapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C06738D7-8507-41AB-9640-78FF83F7DC92}|SupermarketAPI\\SupermarketAPI.csproj|solutionrelative:supermarketapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C06738D7-8507-41AB-9640-78FF83F7DC92}|SupermarketAPI\\SupermarketAPI.csproj|c:\\users\\yenif\\downloads\\supermarketapi\\supermarketapi\\supermarketapi\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C06738D7-8507-41AB-9640-78FF83F7DC92}|SupermarketAPI\\SupermarketAPI.csproj|solutionrelative:supermarketapi\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C06738D7-8507-41AB-9640-78FF83F7DC92}|SupermarketAPI\\SupermarketAPI.csproj|c:\\users\\yenif\\downloads\\supermarketapi\\supermarketapi\\supermarketapi\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C06738D7-8507-41AB-9640-78FF83F7DC92}|SupermarketAPI\\SupermarketAPI.csproj|solutionrelative:supermarketapi\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C06738D7-8507-41AB-9640-78FF83F7DC92}|SupermarketAPI\\SupermarketAPI.csproj|c:\\users\\yenif\\downloads\\supermarketapi\\supermarketapi\\supermarketapi\\services\\products\\productservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C06738D7-8507-41AB-9640-78FF83F7DC92}|SupermarketAPI\\SupermarketAPI.csproj|solutionrelative:supermarketapi\\services\\products\\productservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C06738D7-8507-41AB-9640-78FF83F7DC92}|SupermarketAPI\\SupermarketAPI.csproj|c:\\users\\yenif\\downloads\\supermarketapi\\supermarketapi\\supermarketapi\\services\\products\\iproductservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C06738D7-8507-41AB-9640-78FF83F7DC92}|SupermarketAPI\\SupermarketAPI.csproj|solutionrelative:supermarketapi\\services\\products\\iproductservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C06738D7-8507-41AB-9640-78FF83F7DC92}|SupermarketAPI\\SupermarketAPI.csproj|c:\\users\\yenif\\downloads\\supermarketapi\\supermarketapi\\supermarketapi\\services\\users\\iuserservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C06738D7-8507-41AB-9640-78FF83F7DC92}|SupermarketAPI\\SupermarketAPI.csproj|solutionrelative:supermarketapi\\services\\users\\iuserservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C06738D7-8507-41AB-9640-78FF83F7DC92}|SupermarketAPI\\SupermarketAPI.csproj|c:\\users\\yenif\\downloads\\supermarketapi\\supermarketapi\\supermarketapi\\endpoints\\productendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C06738D7-8507-41AB-9640-78FF83F7DC92}|SupermarketAPI\\SupermarketAPI.csproj|c:\\users\\yenif\\downloads\\supermarketapitests\\supermarketapi\\endpoints\\productendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C06738D7-8507-41AB-9640-78FF83F7DC92}|SupermarketAPI\\SupermarketAPI.csproj|solutionrelative:supermarketapi\\endpoints\\productendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C06738D7-8507-41AB-9640-78FF83F7DC92}|SupermarketAPI\\SupermarketAPI.csproj|c:\\users\\yenif\\downloads\\supermarketapi\\supermarketapi\\supermarketapi\\endpoints\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C06738D7-8507-41AB-9640-78FF83F7DC92}|SupermarketAPI\\SupermarketAPI.csproj|c:\\users\\yenif\\downloads\\supermarketapitests\\supermarketapi\\endpoints\\userendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C06738D7-8507-41AB-9640-78FF83F7DC92}|SupermarketAPI\\SupermarketAPI.csproj|solutionrelative:supermarketapi\\endpoints\\userendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C06738D7-8507-41AB-9640-78FF83F7DC92}|SupermarketAPI\\SupermarketAPI.csproj|c:\\users\\yenif\\downloads\\supermarketapitests\\supermarketapi\\services\\users\\userservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C06738D7-8507-41AB-9640-78FF83F7DC92}|SupermarketAPI\\SupermarketAPI.csproj|solutionrelative:supermarketapi\\services\\users\\userservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C06738D7-8507-41AB-9640-78FF83F7DC92}|SupermarketAPI\\SupermarketAPI.csproj|c:\\users\\yenif\\downloads\\supermarketapitests\\supermarketapi\\migrations\\supermarketdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C06738D7-8507-41AB-9640-78FF83F7DC92}|SupermarketAPI\\SupermarketAPI.csproj|solutionrelative:supermarketapi\\migrations\\supermarketdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C06738D7-8507-41AB-9640-78FF83F7DC92}|SupermarketAPI\\SupermarketAPI.csproj|c:\\users\\yenif\\downloads\\supermarketapitests\\supermarketapi\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C06738D7-8507-41AB-9640-78FF83F7DC92}|SupermarketAPI\\SupermarketAPI.csproj|solutionrelative:supermarketapi\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C06738D7-8507-41AB-9640-78FF83F7DC92}|SupermarketAPI\\SupermarketAPI.csproj|c:\\users\\yenif\\downloads\\supermarketapitests\\supermarketapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C06738D7-8507-41AB-9640-78FF83F7DC92}|SupermarketAPI\\SupermarketAPI.csproj|solutionrelative:supermarketapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C06738D7-8507-41AB-9640-78FF83F7DC92}|SupermarketAPI\\SupermarketAPI.csproj|c:\\users\\yenif\\downloads\\supermarketapitests\\supermarketapi\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C06738D7-8507-41AB-9640-78FF83F7DC92}|SupermarketAPI\\SupermarketAPI.csproj|solutionrelative:supermarketapi\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C06738D7-8507-41AB-9640-78FF83F7DC92}|SupermarketAPI\\SupermarketAPI.csproj|c:\\users\\yenif\\downloads\\supermarketapitests\\supermarketapi\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C06738D7-8507-41AB-9640-78FF83F7DC92}|SupermarketAPI\\SupermarketAPI.csproj|solutionrelative:supermarketapi\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C06738D7-8507-41AB-9640-78FF83F7DC92}|SupermarketAPI\\SupermarketAPI.csproj|c:\\users\\yenif\\downloads\\supermarketapitests\\supermarketapi\\services\\products\\productservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C06738D7-8507-41AB-9640-78FF83F7DC92}|SupermarketAPI\\SupermarketAPI.csproj|solutionrelative:supermarketapi\\services\\products\\productservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C06738D7-8507-41AB-9640-78FF83F7DC92}|SupermarketAPI\\SupermarketAPI.csproj|c:\\users\\yenif\\downloads\\supermarketapitests\\supermarketapi\\services\\products\\iproductservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C06738D7-8507-41AB-9640-78FF83F7DC92}|SupermarketAPI\\SupermarketAPI.csproj|solutionrelative:supermarketapi\\services\\products\\iproductservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C06738D7-8507-41AB-9640-78FF83F7DC92}|SupermarketAPI\\SupermarketAPI.csproj|c:\\users\\yenif\\downloads\\supermarketapitests\\supermarketapi\\services\\users\\iuserservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C06738D7-8507-41AB-9640-78FF83F7DC92}|SupermarketAPI\\SupermarketAPI.csproj|solutionrelative:supermarketapi\\services\\users\\iuserservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C06738D7-8507-41AB-9640-78FF83F7DC92}|SupermarketAPI\\SupermarketAPI.csproj|c:\\users\\yenif\\downloads\\supermarketapitests\\supermarketapi\\endpoints\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C06738D7-8507-41AB-9640-78FF83F7DC92}|SupermarketAPI\\SupermarketAPI.csproj|solutionrelative:supermarketapi\\endpoints\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C06738D7-8507-41AB-9640-78FF83F7DC92}|SupermarketAPI\\SupermarketAPI.csproj|c:\\users\\yenif\\downloads\\supermarketapi\\supermarketapi\\supermarketapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{C06738D7-8507-41AB-9640-78FF83F7DC92}|SupermarketAPI\\SupermarketAPI.csproj|c:\\users\\yenif\\downloads\\supermarketapitests\\supermarketapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{C06738D7-8507-41AB-9640-78FF83F7DC92}|SupermarketAPI\\SupermarketAPI.csproj|solutionrelative:supermarketapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C06738D7-8507-41AB-9640-78FF83F7DC92}|SupermarketAPI\\SupermarketAPI.csproj|c:\\users\\yenif\\downloads\\supermarketapitests\\supermarketapi\\migrations\\20241021032712_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C06738D7-8507-41AB-9640-78FF83F7DC92}|SupermarketAPI\\SupermarketAPI.csproj|solutionrelative:supermarketapi\\migrations\\20241021032712_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -83,12 +87,25 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ProductEndpointsTests.cs",
+              "DocumentMoniker": "C:\\Users\\yenif\\Downloads\\SupermarketAPITests\\SupermarketAPI.IntegrationTests\\ProductEndpointsTests.cs",
+              "RelativeDocumentMoniker": "SupermarketAPI.IntegrationTests\\ProductEndpointsTests.cs",
+              "ToolTip": "C:\\Users\\yenif\\Downloads\\SupermarketAPITests\\SupermarketAPI.IntegrationTests\\ProductEndpointsTests.cs",
+              "RelativeToolTip": "SupermarketAPI.IntegrationTests\\ProductEndpointsTests.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAAD8AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T03:22:24.157Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "UserEndpointsTests.cs",
-              "DocumentMoniker": "C:\\Users\\yenif\\Downloads\\SupermarketAPI\\SupermarketAPI\\SupermarketAPI.IntegrationTests\\UserEndpointsTests.cs",
+              "DocumentMoniker": "C:\\Users\\yenif\\Downloads\\SupermarketAPITests\\SupermarketAPI.IntegrationTests\\UserEndpointsTests.cs",
               "RelativeDocumentMoniker": "SupermarketAPI.IntegrationTests\\UserEndpointsTests.cs",
-              "ToolTip": "C:\\Users\\yenif\\Downloads\\SupermarketAPI\\SupermarketAPI\\SupermarketAPI.IntegrationTests\\UserEndpointsTests.cs",
+              "ToolTip": "C:\\Users\\yenif\\Downloads\\SupermarketAPITests\\SupermarketAPI.IntegrationTests\\UserEndpointsTests.cs",
               "RelativeToolTip": "SupermarketAPI.IntegrationTests\\UserEndpointsTests.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAAAC4AAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAAAiwDsAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-21T04:08:20.327Z",
               "EditorCaption": ""
@@ -96,197 +113,183 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "UserEndpoints.cs",
-              "DocumentMoniker": "C:\\Users\\yenif\\Downloads\\SupermarketAPI\\SupermarketAPI\\SupermarketAPI\\Endpoints\\UserEndpoints.cs",
-              "RelativeDocumentMoniker": "SupermarketAPI\\Endpoints\\UserEndpoints.cs",
-              "ToolTip": "C:\\Users\\yenif\\Downloads\\SupermarketAPI\\SupermarketAPI\\SupermarketAPI\\Endpoints\\UserEndpoints.cs",
-              "RelativeToolTip": "SupermarketAPI\\Endpoints\\UserEndpoints.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-21T04:05:57.396Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "UserDTO.cs",
-              "DocumentMoniker": "C:\\Users\\yenif\\Downloads\\SupermarketAPI\\SupermarketAPI\\SupermarketAPI\\DTOs\\UserDTO.cs",
-              "RelativeDocumentMoniker": "SupermarketAPI\\DTOs\\UserDTO.cs",
-              "ToolTip": "C:\\Users\\yenif\\Downloads\\SupermarketAPI\\SupermarketAPI\\SupermarketAPI\\DTOs\\UserDTO.cs",
-              "RelativeToolTip": "SupermarketAPI\\DTOs\\UserDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-19T14:01:54.157Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "UnitTest1.cs",
-              "DocumentMoniker": "C:\\Users\\yenif\\Downloads\\SupermarketAPI\\SupermarketAPI\\SupermarketAPI.IntegrationTests\\UnitTest1.cs",
+              "DocumentMoniker": "C:\\Users\\yenif\\Downloads\\SupermarketAPITests\\SupermarketAPI.IntegrationTests\\UnitTest1.cs",
               "RelativeDocumentMoniker": "SupermarketAPI.IntegrationTests\\UnitTest1.cs",
-              "ToolTip": "C:\\Users\\yenif\\Downloads\\SupermarketAPI\\SupermarketAPI\\SupermarketAPI.IntegrationTests\\UnitTest1.cs",
+              "ToolTip": "C:\\Users\\yenif\\Downloads\\SupermarketAPITests\\SupermarketAPI.IntegrationTests\\UnitTest1.cs",
               "RelativeToolTip": "SupermarketAPI.IntegrationTests\\UnitTest1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-21T01:09:29.109Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "UserServices.cs",
-              "DocumentMoniker": "C:\\Users\\yenif\\Downloads\\SupermarketAPI\\SupermarketAPI\\SupermarketAPI\\Services\\Users\\UserServices.cs",
+              "DocumentMoniker": "C:\\Users\\yenif\\Downloads\\SupermarketAPITests\\SupermarketAPI\\Services\\Users\\UserServices.cs",
               "RelativeDocumentMoniker": "SupermarketAPI\\Services\\Users\\UserServices.cs",
-              "ToolTip": "C:\\Users\\yenif\\Downloads\\SupermarketAPI\\SupermarketAPI\\SupermarketAPI\\Services\\Users\\UserServices.cs",
+              "ToolTip": "C:\\Users\\yenif\\Downloads\\SupermarketAPITests\\SupermarketAPI\\Services\\Users\\UserServices.cs",
               "RelativeToolTip": "SupermarketAPI\\Services\\Users\\UserServices.cs",
               "ViewState": "AgIAADQAAAAAAAAAAAAcwEUAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-17T17:21:19.849Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Product.cs",
-              "DocumentMoniker": "C:\\Users\\yenif\\Downloads\\SupermarketAPI\\SupermarketAPI\\SupermarketAPI\\Models\\Product.cs",
-              "RelativeDocumentMoniker": "SupermarketAPI\\Models\\Product.cs",
-              "ToolTip": "C:\\Users\\yenif\\Downloads\\SupermarketAPI\\SupermarketAPI\\SupermarketAPI\\Models\\Product.cs",
-              "RelativeToolTip": "SupermarketAPI\\Models\\Product.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-21T03:14:33.001Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "SupermarketDbContextModelSnapshot.cs",
-              "DocumentMoniker": "C:\\Users\\yenif\\Downloads\\SupermarketAPI\\SupermarketAPI\\SupermarketAPI\\Migrations\\SupermarketDbContextModelSnapshot.cs",
-              "RelativeDocumentMoniker": "SupermarketAPI\\Migrations\\SupermarketDbContextModelSnapshot.cs",
-              "ToolTip": "C:\\Users\\yenif\\Downloads\\SupermarketAPI\\SupermarketAPI\\SupermarketAPI\\Migrations\\SupermarketDbContextModelSnapshot.cs",
-              "RelativeToolTip": "SupermarketAPI\\Migrations\\SupermarketDbContextModelSnapshot.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-21T03:27:28.099Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "20241021032712_InitialCreate.cs",
-              "DocumentMoniker": "C:\\Users\\yenif\\Downloads\\SupermarketAPI\\SupermarketAPI\\SupermarketAPI\\Migrations\\20241021032712_InitialCreate.cs",
-              "RelativeDocumentMoniker": "SupermarketAPI\\Migrations\\20241021032712_InitialCreate.cs",
-              "ToolTip": "C:\\Users\\yenif\\Downloads\\SupermarketAPI\\SupermarketAPI\\SupermarketAPI\\Migrations\\20241021032712_InitialCreate.cs",
-              "RelativeToolTip": "SupermarketAPI\\Migrations\\20241021032712_InitialCreate.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-21T03:27:13.054Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "IUserServices.cs",
-              "DocumentMoniker": "C:\\Users\\yenif\\Downloads\\SupermarketAPI\\SupermarketAPI\\SupermarketAPI\\Services\\Users\\IUserServices.cs",
-              "RelativeDocumentMoniker": "SupermarketAPI\\Services\\Users\\IUserServices.cs",
-              "ToolTip": "C:\\Users\\yenif\\Downloads\\SupermarketAPI\\SupermarketAPI\\SupermarketAPI\\Services\\Users\\IUserServices.cs",
-              "RelativeToolTip": "SupermarketAPI\\Services\\Users\\IUserServices.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-17T17:20:33.57Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-17T17:21:19.849Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\yenif\\Downloads\\SupermarketAPI\\SupermarketAPI\\SupermarketAPI\\Program.cs",
-              "RelativeDocumentMoniker": "SupermarketAPI\\Program.cs",
-              "ToolTip": "C:\\Users\\yenif\\Downloads\\SupermarketAPI\\SupermarketAPI\\SupermarketAPI\\Program.cs",
-              "RelativeToolTip": "SupermarketAPI\\Program.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAADAAAABaAAAAAAAAAA==",
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\yenif\\Downloads\\SupermarketAPITests\\SupermarketAPI\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "SupermarketAPI\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\yenif\\Downloads\\SupermarketAPITests\\SupermarketAPI\\Models\\Product.cs",
+              "RelativeToolTip": "SupermarketAPI\\Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-17T17:30:12.741Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-21T03:14:33.001Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ProductDTO.cs",
-              "DocumentMoniker": "C:\\Users\\yenif\\Downloads\\SupermarketAPI\\SupermarketAPI\\SupermarketAPI\\DTOs\\ProductDTO.cs",
-              "RelativeDocumentMoniker": "SupermarketAPI\\DTOs\\ProductDTO.cs",
-              "ToolTip": "C:\\Users\\yenif\\Downloads\\SupermarketAPI\\SupermarketAPI\\SupermarketAPI\\DTOs\\ProductDTO.cs",
-              "RelativeToolTip": "SupermarketAPI\\DTOs\\ProductDTO.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAkwA0AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "SupermarketDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\yenif\\Downloads\\SupermarketAPITests\\SupermarketAPI\\Migrations\\SupermarketDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "SupermarketAPI\\Migrations\\SupermarketDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\yenif\\Downloads\\SupermarketAPITests\\SupermarketAPI\\Migrations\\SupermarketDbContextModelSnapshot.cs",
+              "RelativeToolTip": "SupermarketAPI\\Migrations\\SupermarketDbContextModelSnapshot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-19T14:01:39.464Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-21T03:27:28.099Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProductEndpoints.cs",
+              "DocumentMoniker": "C:\\Users\\yenif\\Downloads\\SupermarketAPITests\\SupermarketAPI\\Endpoints\\ProductEndpoints.cs",
+              "RelativeDocumentMoniker": "SupermarketAPI\\Endpoints\\ProductEndpoints.cs",
+              "ToolTip": "C:\\Users\\yenif\\Downloads\\SupermarketAPITests\\SupermarketAPI\\Endpoints\\ProductEndpoints.cs",
+              "RelativeToolTip": "SupermarketAPI\\Endpoints\\ProductEndpoints.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T21:53:24.929Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserEndpoints.cs",
+              "DocumentMoniker": "C:\\Users\\yenif\\Downloads\\SupermarketAPITests\\SupermarketAPI\\Endpoints\\UserEndpoints.cs",
+              "RelativeDocumentMoniker": "SupermarketAPI\\Endpoints\\UserEndpoints.cs",
+              "ToolTip": "C:\\Users\\yenif\\Downloads\\SupermarketAPITests\\SupermarketAPI\\Endpoints\\UserEndpoints.cs",
+              "RelativeToolTip": "SupermarketAPI\\Endpoints\\UserEndpoints.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T04:05:57.396Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "ProductServices.cs",
-              "DocumentMoniker": "C:\\Users\\yenif\\Downloads\\SupermarketAPI\\SupermarketAPI\\SupermarketAPI\\Services\\Products\\ProductServices.cs",
-              "RelativeDocumentMoniker": "SupermarketAPI\\Services\\Products\\ProductServices.cs",
-              "ToolTip": "C:\\Users\\yenif\\Downloads\\SupermarketAPI\\SupermarketAPI\\SupermarketAPI\\Services\\Products\\ProductServices.cs",
-              "RelativeToolTip": "SupermarketAPI\\Services\\Products\\ProductServices.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAQwAcAAAAcAAAAAAAAAA==",
+              "Title": "UserDTO.cs",
+              "DocumentMoniker": "C:\\Users\\yenif\\Downloads\\SupermarketAPITests\\SupermarketAPI\\DTOs\\UserDTO.cs",
+              "RelativeDocumentMoniker": "SupermarketAPI\\DTOs\\UserDTO.cs",
+              "ToolTip": "C:\\Users\\yenif\\Downloads\\SupermarketAPITests\\SupermarketAPI\\DTOs\\UserDTO.cs",
+              "RelativeToolTip": "SupermarketAPI\\DTOs\\UserDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-25T23:08:59.403Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-19T14:01:54.157Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "IProductServices.cs",
-              "DocumentMoniker": "C:\\Users\\yenif\\Downloads\\SupermarketAPI\\SupermarketAPI\\SupermarketAPI\\Services\\Products\\IProductServices.cs",
-              "RelativeDocumentMoniker": "SupermarketAPI\\Services\\Products\\IProductServices.cs",
-              "ToolTip": "C:\\Users\\yenif\\Downloads\\SupermarketAPI\\SupermarketAPI\\SupermarketAPI\\Services\\Products\\IProductServices.cs",
-              "RelativeToolTip": "SupermarketAPI\\Services\\Products\\IProductServices.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAoAAAAAAAAAA==",
+              "DocumentIndex": 16,
+              "Title": "20241021032712_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\yenif\\Downloads\\SupermarketAPITests\\SupermarketAPI\\Migrations\\20241021032712_InitialCreate.cs",
+              "RelativeDocumentMoniker": "SupermarketAPI\\Migrations\\20241021032712_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\yenif\\Downloads\\SupermarketAPITests\\SupermarketAPI\\Migrations\\20241021032712_InitialCreate.cs",
+              "RelativeToolTip": "SupermarketAPI\\Migrations\\20241021032712_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-25T23:08:03.808Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-21T03:27:13.054Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
-              "Title": "ProductEndpoints.cs",
-              "DocumentMoniker": "C:\\Users\\yenif\\Downloads\\SupermarketAPI\\SupermarketAPI\\SupermarketAPI\\Endpoints\\ProductEndpoints.cs",
-              "RelativeDocumentMoniker": "SupermarketAPI\\Endpoints\\ProductEndpoints.cs",
-              "ToolTip": "C:\\Users\\yenif\\Downloads\\SupermarketAPI\\SupermarketAPI\\SupermarketAPI\\Endpoints\\ProductEndpoints.cs",
-              "RelativeToolTip": "SupermarketAPI\\Endpoints\\ProductEndpoints.cs",
-              "ViewState": "AgIAADcAAAAAAAAAAAAgwEUAAABNAAAAAAAAAA==",
+              "Title": "IUserServices.cs",
+              "DocumentMoniker": "C:\\Users\\yenif\\Downloads\\SupermarketAPITests\\SupermarketAPI\\Services\\Users\\IUserServices.cs",
+              "RelativeDocumentMoniker": "SupermarketAPI\\Services\\Users\\IUserServices.cs",
+              "ToolTip": "C:\\Users\\yenif\\Downloads\\SupermarketAPITests\\SupermarketAPI\\Services\\Users\\IUserServices.cs",
+              "RelativeToolTip": "SupermarketAPI\\Services\\Users\\IUserServices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-17T21:53:24.929Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-17T17:20:33.57Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\yenif\\Downloads\\SupermarketAPITests\\SupermarketAPI\\Program.cs",
+              "RelativeDocumentMoniker": "SupermarketAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\yenif\\Downloads\\SupermarketAPITests\\SupermarketAPI\\Program.cs",
+              "RelativeToolTip": "SupermarketAPI\\Program.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAIBJwDAAAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T17:30:12.741Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ProductDTO.cs",
+              "DocumentMoniker": "C:\\Users\\yenif\\Downloads\\SupermarketAPITests\\SupermarketAPI\\DTOs\\ProductDTO.cs",
+              "RelativeDocumentMoniker": "SupermarketAPI\\DTOs\\ProductDTO.cs",
+              "ToolTip": "C:\\Users\\yenif\\Downloads\\SupermarketAPITests\\SupermarketAPI\\DTOs\\ProductDTO.cs",
+              "RelativeToolTip": "SupermarketAPI\\DTOs\\ProductDTO.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAkwA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T14:01:39.464Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ProductServices.cs",
+              "DocumentMoniker": "C:\\Users\\yenif\\Downloads\\SupermarketAPITests\\SupermarketAPI\\Services\\Products\\ProductServices.cs",
+              "RelativeDocumentMoniker": "SupermarketAPI\\Services\\Products\\ProductServices.cs",
+              "ToolTip": "C:\\Users\\yenif\\Downloads\\SupermarketAPITests\\SupermarketAPI\\Services\\Products\\ProductServices.cs",
+              "RelativeToolTip": "SupermarketAPI\\Services\\Products\\ProductServices.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwAcAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T23:08:59.403Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IProductServices.cs",
+              "DocumentMoniker": "C:\\Users\\yenif\\Downloads\\SupermarketAPITests\\SupermarketAPI\\Services\\Products\\IProductServices.cs",
+              "RelativeDocumentMoniker": "SupermarketAPI\\Services\\Products\\IProductServices.cs",
+              "ToolTip": "C:\\Users\\yenif\\Downloads\\SupermarketAPITests\\SupermarketAPI\\Services\\Products\\IProductServices.cs",
+              "RelativeToolTip": "SupermarketAPI\\Services\\Products\\IProductServices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T23:08:03.808Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 14,
               "Title": "Startup.cs",
-              "DocumentMoniker": "C:\\Users\\yenif\\Downloads\\SupermarketAPI\\SupermarketAPI\\SupermarketAPI\\Endpoints\\Startup.cs",
+              "DocumentMoniker": "C:\\Users\\yenif\\Downloads\\SupermarketAPITests\\SupermarketAPI\\Endpoints\\Startup.cs",
               "RelativeDocumentMoniker": "SupermarketAPI\\Endpoints\\Startup.cs",
-              "ToolTip": "C:\\Users\\yenif\\Downloads\\SupermarketAPI\\SupermarketAPI\\SupermarketAPI\\Endpoints\\Startup.cs",
+              "ToolTip": "C:\\Users\\yenif\\Downloads\\SupermarketAPITests\\SupermarketAPI\\Endpoints\\Startup.cs",
               "RelativeToolTip": "SupermarketAPI\\Endpoints\\Startup.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-17T23:01:22.349Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-17T23:01:22.349Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 15,
               "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\Users\\yenif\\Downloads\\SupermarketAPI\\SupermarketAPI\\SupermarketAPI\\appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\yenif\\Downloads\\SupermarketAPITests\\SupermarketAPI\\appsettings.Development.json",
               "RelativeDocumentMoniker": "SupermarketAPI\\appsettings.Development.json",
-              "ToolTip": "C:\\Users\\yenif\\Downloads\\SupermarketAPI\\SupermarketAPI\\SupermarketAPI\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\yenif\\Downloads\\SupermarketAPITests\\SupermarketAPI\\appsettings.Development.json",
               "RelativeToolTip": "SupermarketAPI\\appsettings.Development.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-09-17T23:01:43.44Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-17T23:01:43.44Z"
             }
           ]
         }
