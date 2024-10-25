@@ -66,12 +66,24 @@ namespace SupermarketAPI.IntegrationTests
         {
             //Arrange: pasar autorizacion a la cabecera y estables ID de producto existente
             AgregarTokenALaCabecera();
-            var productId = 1;
+            var productId = 2;
             //Act: Realizar solicitud para obtener  productos por ID
             var product = await _httpClient.GetFromJsonAsync<ProductResponse>($"api/products/{productId}");
             //Assert: Verificar que el producto no sea nulo y que tenga el ID correcto 
             Assert.IsNotNull(product, "El producto no deberia ser nulo.");
             Assert.AreEqual(productId, product.ProductId, "El ID del producto devuelto no coincide.");
+        }
+
+        [TestMethod]
+        public async Task GuardarProducto_ConDatosValidos_RetornaCreated()
+        {
+            //Arrange: pasar autorizacion a la cabecera y preparar el nuevo producto
+            AgregarTokenALaCabecera();
+            var newProducts = new ProductRequest { UserId = 1, ProductName = "camisa", ProductPrice = 12, ProductStatus = true };
+            //Act: Realizar solicitud para guardar el producto 
+            var response = await _httpClient.PostAsJsonAsync("api/products", newProducts);
+            //Assert: Verificar el codigo de estado Created
+            Assert.AreEqual(HttpStatusCode.Created, response.StatusCode, "El usuario no se creo correctamente");
         }
     }
 }

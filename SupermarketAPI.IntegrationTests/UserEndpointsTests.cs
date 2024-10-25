@@ -66,7 +66,7 @@ namespace SupermarketAPI.IntegrationTests
         {
             //Arrange: pasar autorizacion a la cabecera y estables ID de usuario exixtente
             AgregarTokenALaCabecera();
-            var userId = 2;
+            var userId = 1;
             //Act: Realizar solicitud para obtener  usuarios por ID
             var user = await _httpClient.GetFromJsonAsync<UserResponse>($"api/users/{userId}");
             //Assert: Verificar que el usuario no sea nulo y que tenga el ID correcto 
@@ -78,7 +78,7 @@ namespace SupermarketAPI.IntegrationTests
         public async Task GuardarUsuario_ConDatosValidos_RetornaCreated() {
             //Arrange: pasar autorizacion a la cabecera y preparar el nuevo usuario
             AgregarTokenALaCabecera();
-            var newUser = new UserRequest { Username = "yenifer", UserPassword = "123", UserRole = "Verdedor" };
+            var newUser = new UserRequest { Username = "fany", UserPassword = "123", UserRole = "Verdedor" };
             //Act: Realizar solicitud para guardar el usuario 
             var response = await _httpClient.PostAsJsonAsync("api/users", newUser);
             //Assert: Verificar el codigo de estado Created
@@ -90,7 +90,7 @@ namespace SupermarketAPI.IntegrationTests
         {
             //Arrange: pasar autorizacion a la cabecera y preparar el nuevo usuario duplicado
             AgregarTokenALaCabecera();
-            var newUser = new UserRequest { Username = "michel", UserPassword = "123", UserRole = "Verdedor" };
+            var newUser = new UserRequest { Username = "contreras", UserPassword = "123", UserRole = "Verdedor" };
             //Act: Realizar solicitud para guardar el usuario con nombre de usuario duplicado
             var response = await _httpClient.PostAsJsonAsync("api/users", newUser);
             //Assert: Verificar el codigo de estado Conflict
@@ -101,8 +101,8 @@ namespace SupermarketAPI.IntegrationTests
         public async Task ModificarUsuario_UsuarioExistente_RetornaOk() {
             //Arrange: pasar autorizacion a la cabecera y preparar el nuevo usuario modificado, pasando un ID
             AgregarTokenALaCabecera();
-            var existingUser = new UserRequest { Username = "jeny", UserPassword = "0000", UserRole = "Administrador"};
-            var userId = 2;
+            var existingUser = new UserRequest { Username = "yen", UserPassword = "0000", UserRole = "Administrador"};
+            var userId = 12;
             //Act: Realizar solicitud para modificar usuario existente 
             var response = await _httpClient.PutAsJsonAsync($"api/users/{userId}", existingUser);
             //Assert: Verifica que la respuesta se OK
@@ -113,7 +113,7 @@ namespace SupermarketAPI.IntegrationTests
         public async Task EliminarUsuario_UsuarioExistente_RetornaNoContent() {
             //Arrange: pasar autorizacion a la cabecera, pasando un ID
             AgregarTokenALaCabecera();
-            var userId = 2;
+            var userId = 13;
             //Act: Realizar solicitud para eliminar usuario existente 
             var response = await _httpClient.DeleteAsync($"api/users/{userId}");
             //Assert: Verifica que la respuesta se NoContent
@@ -125,7 +125,7 @@ namespace SupermarketAPI.IntegrationTests
         {
             //Arrange: pasar autorizacion a la cabecera, pasando un ID
             AgregarTokenALaCabecera();
-            var userId = 2;
+            var userId = 11;
             //Act: Realizar solicitud para eliminar usuario existente 
             var response = await _httpClient.DeleteAsync($"api/users/{userId}");
             //Assert: Verifica que la respuesta se NotFound

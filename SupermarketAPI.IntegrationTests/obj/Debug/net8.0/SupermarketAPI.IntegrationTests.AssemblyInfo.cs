@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SupermarketAPI.IntegrationTests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+eff880fda23d0713cd49d325c2cb0c164eb65a85")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a34e7ae8c45aa9c1c6ccfbbc2e27079aa1a49d09")]
 [assembly: System.Reflection.AssemblyProductAttribute("SupermarketAPI.IntegrationTests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SupermarketAPI.IntegrationTests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
